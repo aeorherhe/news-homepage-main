@@ -336,3 +336,14 @@ p {
   display: inline-block;
   margin: 0 5px;
 }
+
+@media screen and (max-width: 500px) {
+  .my-profile {
+    font-size: 12px;
+  }
+
+  .my-profile-icons a:first-of-type,
+  .my-profile-icons a:last-of-type {
+    display: none;
+  }
+}
